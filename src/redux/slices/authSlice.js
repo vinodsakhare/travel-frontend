@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   isAuthenticated: false,
   user: null,
+  isMenuOpen: false,
 };
 
 const authSlice = createSlice({
@@ -17,8 +18,13 @@ const authSlice = createSlice({
       state.isAuthenticated = false;
       state.user = null;
     },
+    switchSideNav: (state) => {
+      console.log("trigger")
+      state.isMenuOpen = !state.isMenuOpen
+    }
   },
 });
 
-export const { login, logout } = authSlice.actions;
+
+export const { login, logout, switchSideNav } = authSlice.actions;
 export default authSlice.reducer;
