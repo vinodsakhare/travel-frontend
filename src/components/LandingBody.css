@@ -1,0 +1,61 @@
+.landingBody {
+    min-height: 80vh;
+}
+
+.firstContent { 
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    margin-top: 98px;
+    position: relative;
+}
+
+.top {
+    font-weight: 700;
+    font-size: 96px;
+    text-align: left;
+}
+
+.middle {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+
+.bottom {
+    display: flex;
+}
+  
+.chatbtn, .videobtn {
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+
+.londonImg {
+    position: absolute;
+    max-width: 220px;
+    max-height : 190px;
+    top : 140px;
+    right : 500px;
+    
+}
+
+.parisImg {
+    position: absolute;
+    max-width: 260px;
+    max-height : 220px;
+    top : 60px;
+    right: 40px;
+}
+
+.romeImg {
+    position: absolute;
+    max-width: 200px;
+    max-height : 190px;
+    top : 360px;
+    right: 40px;
+}
+
+
+

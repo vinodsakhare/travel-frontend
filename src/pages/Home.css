@@ -1,0 +1,11 @@
+.backgroundImg {
+    background-image: url(Heroes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 24px 24px;
+    overflow: hidden;
+}
+
+.random {
+    min-height: 100vh;
+}

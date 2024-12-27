@@ -1,0 +1,79 @@
+.menu-content {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 260px;
+  height: 100%;
+  transition: left 0.5s ease;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 999;
+}
+
+.menu-overlay.open {
+  left: 0; /* Show when open */
+}
+
+
+
+.menu-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 18px;
+  cursor: pointer;
+  color: black;
+}
+
+.menu-footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-footer .sign-in,
+.menu-footer .get-started {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.menu-footer .sign-in {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.menu-footer .get-started {
+  background-color: black;
+  color: white;
+}
+
+
+.menu-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.close-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.close-icon:hover {
+    transform: rotate(90deg);
+}
+
