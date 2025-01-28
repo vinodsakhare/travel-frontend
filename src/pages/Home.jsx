@@ -1,16 +1,16 @@
 import React from "react";
-import Header from '../components/Header';
-import LandingBody from "../components/LandingBody";
+import HomeHeader from '../components/HomeHeader';
+import HomeLandingBody from "../components/HomeLandingBody";
 import './Home.css';
-import SideNav from "../components/SideNav";
+import HomeSideNav from "../components/HomeSideNav";
 
 const Home = () => {
   return (
     <div className="home-page">
       <div className = "backgroundImg">
-        <Header/>
-        <SideNav/>
-        <LandingBody/>
+        <HomeHeader/>
+        <HomeSideNav/>
+        <HomeLandingBody/>
       </div>
       <div className="random">heyy</div>
     </div>

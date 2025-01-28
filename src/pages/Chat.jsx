@@ -1,14 +1,16 @@
 import React from "react";
 import './Chat.css';
+import ChatSideNav from '../components/ChatSideNav';
+import ChatBody from "../components/ChatBody";
+import PersistentDrawerLeft from "../components/PersistentDrawerLeft";
+
 
 const Chat = () => {
     return (
       <div className="chat-page">
-        <div className = "sidebar">
-            sidebar
-        </div>
-        <div className = "chatSection">chatSection</div>
-        <div className = "lastSection">lastSection</div>
+        {/* <ChatSideNav/>
+        <ChatBody/> */}
+        <PersistentDrawerLeft />
       </div>
     );
   };

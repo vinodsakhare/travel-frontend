@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import './Header.css';
+import './HomeHeader.css';
 import { switchSideNav } from '../redux/slices/authSlice'; 
 import { useDispatch } from 'react-redux';
 
 
-function Header() {
+function HomeHeader() {
 
     const [isActive, setIsActive] = useState(false);
     const dispatch = useDispatch();
@@ -61,4 +61,4 @@ function Header() {
     )
 }
 
-export default Header
+export default HomeHeader

@@ -1,11 +1,11 @@
 import React from 'react';
-import './LandingBody.css';
+import './HomeLandingBody.css';
 
 
 import { useNavigate } from 'react-router-dom';
 
 
-function LandingBody() {
+function HomeLandingBody() {
 
     const navigate = useNavigate();
 
@@ -14,7 +14,7 @@ function LandingBody() {
     };
 
     return (
-            <div className = "landingBody">
+            <div className = "HomelandingBody">
                 <div className = "firstContent">
                     <div className = "top">
                         <div>Travel</div>
@@ -39,4 +39,4 @@ function LandingBody() {
     )
 }
 
-export default LandingBody
+export default HomeLandingBody
